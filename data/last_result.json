@@ -1,0 +1,262 @@
+{
+  "1": {
+    "id": 1,
+    "nome": "Rua Coronel Oliveira Lima",
+    "bairro": "Centro",
+    "lat": -23.656440642397023,
+    "lng": -46.52713433312033,
+    "status": {
+      "vazamento": false,
+      "obra": false,
+      "qualidade": 5,
+      "consumo_agua": 408
+    }
+  },
+  "2": {
+    "id": 2,
+    "nome": "Avenida Dom Pedro II",
+    "bairro": "Vila Bastos",
+    "lat": -23.641177693500946,
+    "lng": -46.54059526195661,
+    "status": {
+      "vazamento": false,
+      "obra": true,
+      "qualidade": 80,
+      "consumo_agua": 102
+    }
+  },
+  "3": {
+    "id": 3,
+    "nome": "Rua das Figueiras",
+    "bairro": "Jardim",
+    "lat": -23.645144053822314,
+    "lng": -46.5421068042849,
+    "status": {
+      "vazamento": true,
+      "obra": true,
+      "qualidade": 11,
+      "consumo_agua": 105
+    }
+  },
+  "4": {
+    "id": 4,
+    "nome": "Avenida Portugal",
+    "bairro": "Vila Alzira",
+    "lat": -23.66306824488266,
+    "lng": -46.53321313312019,
+    "status": {
+      "vazamento": false,
+      "obra": true,
+      "qualidade": 30,
+      "consumo_agua": 171
+    }
+  },
+  "5": {
+    "id": 5,
+    "nome": "Rua Carij\u00f3s",
+    "bairro": "Vila Linda",
+    "lat": -23.686756303704435,
+    "lng": -46.52195377544774,
+    "status": {
+      "vazamento": true,
+      "obra": true,
+      "qualidade": 24,
+      "consumo_agua": 342
+    }
+  },
+  "6": {
+    "id": 6,
+    "nome": "Avenida Firestone",
+    "bairro": "Vila Am\u00e9rica",
+    "lat": -23.673820822957676,
+    "lng": -46.51771880428405,
+    "status": {
+      "vazamento": true,
+      "obra": false,
+      "qualidade": 68,
+      "consumo_agua": 433
+    }
+  },
+  "7": {
+    "id": 7,
+    "nome": "Rua Orat\u00f3rio",
+    "bairro": "Parque Orat\u00f3rio",
+    "lat": -23.646185586712082,
+    "lng": -46.52580015836169,
+    "status": {
+      "vazamento": false,
+      "obra": false,
+      "qualidade": 78,
+      "consumo_agua": 171
+    }
+  },
+  "8": {
+    "id": 8,
+    "nome": "Rua Giovanni Battista Pirelli",
+    "bairro": "Utinga",
+    "lat": -23.66534763193009,
+    "lng": -46.49779890428419,
+    "status": {
+      "vazamento": true,
+      "obra": true,
+      "qualidade": 17,
+      "consumo_agua": 102
+    }
+  },
+  "9": {
+    "id": 9,
+    "nome": "Rua Catequese",
+    "bairro": "Vila Assun\u00e7\u00e3o",
+    "lat": -23.657100851514766,
+    "lng": -46.53787033312041,
+    "status": {
+      "vazamento": false,
+      "obra": true,
+      "qualidade": 69,
+      "consumo_agua": 331
+    }
+  },
+  "10": {
+    "id": 10,
+    "nome": "Rua Laura",
+    "bairro": "Vila Palmares",
+    "lat": -23.661725659351013,
+    "lng": -46.534404319627804,
+    "status": {
+      "vazamento": true,
+      "obra": false,
+      "qualidade": 90,
+      "consumo_agua": 234
+    }
+  },
+  "11": {
+    "id": 11,
+    "nome": "Rua Caminho do Pilar",
+    "bairro": "Vila Camil\u00f3polis",
+    "lat": -23.672958378723294,
+    "lng": -46.54103709079151,
+    "status": {
+      "vazamento": true,
+      "obra": true,
+      "qualidade": 25,
+      "consumo_agua": 500
+    }
+  },
+  "12": {
+    "id": 12,
+    "nome": "Rua das Hort\u00eancias",
+    "bairro": "Parque das Na\u00e7\u00f5es",
+    "lat": -23.683418730177046,
+    "lng": -46.51671438894033,
+    "status": {
+      "vazamento": true,
+      "obra": false,
+      "qualidade": 93,
+      "consumo_agua": 293
+    }
+  },
+  "13": {
+    "id": 13,
+    "nome": "Rua Alfredo Maluf",
+    "bairro": "Vila Metal\u00fargica",
+    "lat": -23.612510678764714,
+    "lng": -46.574037775450144,
+    "status": {
+      "vazamento": true,
+      "obra": true,
+      "qualidade": 92,
+      "consumo_agua": 260
+    }
+  },
+  "14": {
+    "id": 14,
+    "nome": "Rua Igarapava",
+    "bairro": "Jardim Santo Andr\u00e9",
+    "lat": -23.66696203168621,
+    "lng": -46.55183836195601,
+    "status": {
+      "vazamento": true,
+      "obra": true,
+      "qualidade": 41,
+      "consumo_agua": 103
+    }
+  },
+  "15": {
+    "id": 15,
+    "nome": "Rua das Mon\u00e7\u00f5es",
+    "bairro": "Campestre",
+    "lat": -23.65395317873637,
+    "lng": -46.53731830428472,
+    "status": {
+      "vazamento": false,
+      "obra": true,
+      "qualidade": 81,
+      "consumo_agua": 103
+    }
+  },
+  "16": {
+    "id": 16,
+    "nome": "Rua Ant\u00f4nio Cardoso",
+    "bairro": "Vila Francisco Matarazzo",
+    "lat": -23.661292931516286,
+    "lng": -46.521383915261005,
+    "status": {
+      "vazamento": false,
+      "obra": true,
+      "qualidade": 65,
+      "consumo_agua": 378
+    }
+  },
+  "17": {
+    "id": 17,
+    "nome": "Rua S\u00e3o Vicente",
+    "bairro": "Vila Valpara\u00edso",
+    "lat": -23.652706061390358,
+    "lng": -46.53055757544888,
+    "status": {
+      "vazamento": true,
+      "obra": false,
+      "qualidade": 66,
+      "consumo_agua": 126
+    }
+  },
+  "18": {
+    "id": 18,
+    "nome": "Rua Jos\u00e9 Bonif\u00e1cio",
+    "bairro": "Vila Humait\u00e1",
+    "lat": -23.6707556787248,
+    "lng": -46.52849811962737,
+    "status": {
+      "vazamento": true,
+      "obra": true,
+      "qualidade": 26,
+      "consumo_agua": 500
+    }
+  },
+  "19": {
+    "id": 19,
+    "nome": "Rua dos Vianas",
+    "bairro": "S\u00edtio dos Vianas",
+    "lat": -23.710710148329184,
+    "lng": -46.514843023887686,
+    "status": {
+      "vazamento": true,
+      "obra": true,
+      "qualidade": 40,
+      "consumo_agua": 483
+    }
+  },
+  "20": {
+    "id": 20,
+    "nome": "Rua dos Coqueiros",
+    "bairro": "Jardim Las Vegas",
+    "lat": -23.634991909814865,
+    "lng": -46.54306661777767,
+    "status": {
+      "vazamento": false,
+      "obra": true,
+      "qualidade": 72,
+      "consumo_agua": 405
+    }
+  }
+}
