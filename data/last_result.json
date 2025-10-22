@@ -7,9 +7,9 @@
     "lng": -46.52713433312033,
     "status": {
       "vazamento": false,
-      "obra": false,
-      "qualidade": 5,
-      "consumo_agua": 408
+      "obra": true,
+      "qualidade": 54,
+      "consumo_agua": 469
     }
   },
   "2": {
@@ -19,10 +19,10 @@
     "lat": -23.641177693500946,
     "lng": -46.54059526195661,
     "status": {
-      "vazamento": false,
-      "obra": true,
-      "qualidade": 80,
-      "consumo_agua": 102
+      "vazamento": true,
+      "obra": false,
+      "qualidade": 53,
+      "consumo_agua": 155
     }
   },
   "3": {
@@ -32,10 +32,10 @@
     "lat": -23.645144053822314,
     "lng": -46.5421068042849,
     "status": {
-      "vazamento": true,
+      "vazamento": false,
       "obra": true,
-      "qualidade": 11,
-      "consumo_agua": 105
+      "qualidade": 32,
+      "consumo_agua": 96
     }
   },
   "4": {
@@ -47,8 +47,8 @@
     "status": {
       "vazamento": false,
       "obra": true,
-      "qualidade": 30,
-      "consumo_agua": 171
+      "qualidade": 28,
+      "consumo_agua": 479
     }
   },
   "5": {
@@ -58,10 +58,10 @@
     "lat": -23.686756303704435,
     "lng": -46.52195377544774,
     "status": {
-      "vazamento": true,
+      "vazamento": false,
       "obra": true,
-      "qualidade": 24,
-      "consumo_agua": 342
+      "qualidade": 42,
+      "consumo_agua": 430
     }
   },
   "6": {
@@ -71,10 +71,10 @@
     "lat": -23.673820822957676,
     "lng": -46.51771880428405,
     "status": {
-      "vazamento": true,
+      "vazamento": false,
       "obra": false,
-      "qualidade": 68,
-      "consumo_agua": 433
+      "qualidade": 82,
+      "consumo_agua": 500
     }
   },
   "7": {
@@ -84,10 +84,10 @@
     "lat": -23.646185586712082,
     "lng": -46.52580015836169,
     "status": {
-      "vazamento": false,
+      "vazamento": true,
       "obra": false,
-      "qualidade": 78,
-      "consumo_agua": 171
+      "qualidade": 40,
+      "consumo_agua": 294
     }
   },
   "8": {
@@ -98,9 +98,9 @@
     "lng": -46.49779890428419,
     "status": {
       "vazamento": true,
-      "obra": true,
-      "qualidade": 17,
-      "consumo_agua": 102
+      "obra": false,
+      "qualidade": 80,
+      "consumo_agua": 255
     }
   },
   "9": {
@@ -111,9 +111,9 @@
     "lng": -46.53787033312041,
     "status": {
       "vazamento": false,
-      "obra": true,
-      "qualidade": 69,
-      "consumo_agua": 331
+      "obra": false,
+      "qualidade": 84,
+      "consumo_agua": 348
     }
   },
   "10": {
@@ -125,8 +125,8 @@
     "status": {
       "vazamento": true,
       "obra": false,
-      "qualidade": 90,
-      "consumo_agua": 234
+      "qualidade": 49,
+      "consumo_agua": 142
     }
   },
   "11": {
@@ -137,9 +137,9 @@
     "lng": -46.54103709079151,
     "status": {
       "vazamento": true,
-      "obra": true,
-      "qualidade": 25,
-      "consumo_agua": 500
+      "obra": false,
+      "qualidade": 74,
+      "consumo_agua": 447
     }
   },
   "12": {
@@ -150,9 +150,9 @@
     "lng": -46.51671438894033,
     "status": {
       "vazamento": true,
-      "obra": false,
-      "qualidade": 93,
-      "consumo_agua": 293
+      "obra": true,
+      "qualidade": 16,
+      "consumo_agua": 191
     }
   },
   "13": {
@@ -162,10 +162,10 @@
     "lat": -23.612510678764714,
     "lng": -46.574037775450144,
     "status": {
-      "vazamento": true,
-      "obra": true,
-      "qualidade": 92,
-      "consumo_agua": 260
+      "vazamento": false,
+      "obra": false,
+      "qualidade": 85,
+      "consumo_agua": 126
     }
   },
   "14": {
@@ -176,9 +176,9 @@
     "lng": -46.55183836195601,
     "status": {
       "vazamento": true,
-      "obra": true,
-      "qualidade": 41,
-      "consumo_agua": 103
+      "obra": false,
+      "qualidade": 65,
+      "consumo_agua": 153
     }
   },
   "15": {
@@ -189,9 +189,9 @@
     "lng": -46.53731830428472,
     "status": {
       "vazamento": false,
-      "obra": true,
-      "qualidade": 81,
-      "consumo_agua": 103
+      "obra": false,
+      "qualidade": 90,
+      "consumo_agua": 131
     }
   },
   "16": {
@@ -201,10 +201,10 @@
     "lat": -23.661292931516286,
     "lng": -46.521383915261005,
     "status": {
-      "vazamento": false,
+      "vazamento": true,
       "obra": true,
-      "qualidade": 65,
-      "consumo_agua": 378
+      "qualidade": 72,
+      "consumo_agua": 366
     }
   },
   "17": {
@@ -216,8 +216,8 @@
     "status": {
       "vazamento": true,
       "obra": false,
-      "qualidade": 66,
-      "consumo_agua": 126
+      "qualidade": 55,
+      "consumo_agua": 265
     }
   },
   "18": {
@@ -229,8 +229,8 @@
     "status": {
       "vazamento": true,
       "obra": true,
-      "qualidade": 26,
-      "consumo_agua": 500
+      "qualidade": 4,
+      "consumo_agua": 80
     }
   },
   "19": {
@@ -241,9 +241,9 @@
     "lng": -46.514843023887686,
     "status": {
       "vazamento": true,
-      "obra": true,
-      "qualidade": 40,
-      "consumo_agua": 483
+      "obra": false,
+      "qualidade": 5,
+      "consumo_agua": 285
     }
   },
   "20": {
@@ -253,10 +253,10 @@
     "lat": -23.634991909814865,
     "lng": -46.54306661777767,
     "status": {
-      "vazamento": false,
+      "vazamento": true,
       "obra": true,
-      "qualidade": 72,
-      "consumo_agua": 405
+      "qualidade": 81,
+      "consumo_agua": 137
     }
   }
 }

@@ -1,0 +1,11 @@
+[
+  {
+    "usuario": "admin",
+    "senha": "admin"
+  },
+  {
+    "usuario": "vitoria",
+    "senha": "abcd123",
+    "email": "vinihu31@gmail.com"
+  }
+]

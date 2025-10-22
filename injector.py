@@ -16,6 +16,7 @@ def gerar_status():
     }
 
 def gerar_consumo_agua(consumo_anterior=None):
+    print("consumo naterior: ",consumo_anterior)
     if consumo_anterior is None:
         return random.randint(50, 500)
     novo = consumo_anterior + random.randint(-20, 20)
@@ -51,7 +52,9 @@ def gerar_ingestao_completa():
     for rua in ruas:
         id_rua = str(rua["id"])
         anterior = ultimo_resultado.get(id_rua)
+        # print("anterior: ",anterior)
         consumo_anterior = anterior["status"]["consumo_agua"] if anterior else None
+        # print("consumo naterior: ",consumo_anterior)
 
         status = {
             "vazamento": random.choice([True, False]),

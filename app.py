@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, request, jsonify
 from flask_cors import CORS
 import json
 from streets_data import generate_street_data
@@ -6,9 +6,47 @@ from injector import iniciar_injecao_loop
 import requests
 from bs4 import BeautifulSoup
 import threading
+import os
 
 app = Flask(__name__)
+ARQUIVO = 'data/usuarios.json'
 CORS(app)
+
+@app.route('/api/login', methods=['POST'])
+def login():
+    dados = request.json
+    with open(ARQUIVO) as f:
+        usuarios = json.load(f)
+
+    for u in usuarios:
+        if u['usuario'] == dados['usuario'] and u['senha'] == dados['senha']:
+            return jsonify({'autenticado': True, 'email': u.get('email')}), 200
+
+    return jsonify({'autenticado': False}), 401
+
+@app.route('/api/cadastro', methods=['POST'])
+def cadastrar_usuario():
+    novo = request.json
+    if not novo.get('usuario') or not novo.get('senha'):
+        return jsonify({'mensagem': 'Campos obrigatórios'}), 400
+
+    if not os.path.exists(ARQUIVO):
+        with open(ARQUIVO, 'w') as f:
+            json.dump([], f)
+
+    with open(ARQUIVO, 'r') as f:
+        usuarios = json.load(f)
+
+    if any(u['usuario'] == novo['usuario'] for u in usuarios):
+        return jsonify({'mensagem': 'Usuário já existe'}), 409
+
+    usuarios.append(novo)
+
+    with open(ARQUIVO, 'w') as f:
+        json.dump(usuarios, f, indent=2)
+
+    return jsonify({'mensagem': 'Usuário cadastrado com sucesso'}), 201
+
 
 @app.route('/api/rua/<nome_rua>', methods=['GET'])
 def rua(nome_rua):
