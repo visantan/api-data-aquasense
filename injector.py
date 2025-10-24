@@ -16,7 +16,7 @@ def gerar_status():
     }
 
 def gerar_consumo_agua(consumo_anterior=None):
-    print("consumo naterior: ",consumo_anterior)
+    # print("consumo naterior: ",consumo_anterior)
     if consumo_anterior is None:
         return random.randint(50, 500)
     novo = consumo_anterior + random.randint(-20, 20)
