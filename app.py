@@ -102,4 +102,4 @@ def noticias_agua_santo_andre():
 
 if __name__ == '__main__':
     threading.Thread(target=iniciar_injecao_loop, daemon=True).start()
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
